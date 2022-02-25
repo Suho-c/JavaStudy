@@ -1,5 +1,5 @@
 
-public class Ex03_ÀÌÂ÷¿ø¹è¿­3 {
+public class Ex03_ì´ì°¨ì›ë°°ì—´3 {
 
 	public static void main(String[] args) {
 		
@@ -7,7 +7,7 @@ public class Ex03_ÀÌÂ÷¿ø¹è¿­3 {
 		
 		int num = 21;
 		
-		// ÀÔ·ÂºÎ
+		// ì…ë ¥ë¶€
 		for(int i = 0; i < array.length; i++) {
 			for(int j = 0; j < array[0].length; j++) {
 				
@@ -22,7 +22,7 @@ public class Ex03_ÀÌÂ÷¿ø¹è¿­3 {
 //		0,4 1,4 2,4 3,4 4,4
 				
 		
-		// Ãâ·ÂºÎ
+		// ì¶œë ¥ë¶€
 		for(int i = 0; i < array.length; i++) {
 			for(int j = 0; j < array[0].length; j++ ) {
 				System.out.print(array[j][i] + "\t");
