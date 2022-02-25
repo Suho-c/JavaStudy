@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ¿¬½À {
+public class Â¿Â¬Â½Ã€ {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -10,24 +10,24 @@ public class ¿¬½À {
 		
 //		while(num != -1) {
 //			total += num;
-//			System.out.print("ÀÔ·Â : ");
+//			System.out.print("Ã€Ã”Â·Ã‚ : ");
 //			num = sc.nextInt();
 //			
 		
 //		while(true) {
 //			total += num;
-//			System.out.print("ÀÔ·Â : ");
+//			System.out.print("Ã€Ã”Â·Ã‚ : ");
 //			num = sc.nextInt();
 //			if (num == -1) {
 //				break;
 //			}
 		do {			
 			total += num;
-			System.out.print("ÀÔ·Â : ");
+			System.out.print("Ã€Ã”Â·Ã‚ : ");
 			num = sc.nextInt();
 						
 		} while ( num != -1);
-		System.out.println("°á°ú : " + total);
+		System.out.println("Â°Ã¡Â°Ãº : " + total);
 	}
 
 }
