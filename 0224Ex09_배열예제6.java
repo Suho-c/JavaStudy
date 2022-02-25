@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex09_¹è¿­¿¹Á¦6 {
+public class Ex09_ë°°ì—´ì˜ˆì œ6 {
 
 	public static void main(String[] args) {
 		
@@ -9,13 +9,13 @@ public class Ex09_¹è¿­¿¹Á¦6 {
 		int[] ans = {1,4,3,2,1};
 		int[] user = new int[5];
 		
-		// 1. user ¶ó´Â ¹è¿­¿¡ »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ °ªÀ» ³Ö¾îÁÖ¼¼¿ä.
+		// 1. user ë¼ëŠ” ë°°ì—´ì— ì‚¬ìš©ìê°€ ì…ë ¥í•œ ê°’ì„ ë„£ì–´ì£¼ì„¸ìš”.
 			for(int i = 0; i < user.length; i++) {
-			System.out.print((i+1)+ "¹ø´ä >> ");
+			System.out.print((i+1)+ "ë²ˆë‹µ >> ");
 			user[i] = sc.nextInt();
 			
-			// 2. ans ¶ó´Â ¹è¿­°ú user ¶ó´Â ¹è¿­À» ºñ±³ÇØ¼­
-			//    °ªÀÌ °°´Ù¸é 'O', ´Ù¸£´Ù¸é 'X' Ãâ·Â½ÃÄÑÁÖ¼¼¿ä!
+			// 2. ans ë¼ëŠ” ë°°ì—´ê³¼ user ë¼ëŠ” ë°°ì—´ì„ ë¹„êµí•´ì„œ
+			//    ê°’ì´ ê°™ë‹¤ë©´ 'O', ë‹¤ë¥´ë‹¤ë©´ 'X' ì¶œë ¥ì‹œì¼œì£¼ì„¸ìš”!
 			
 			
 		}
@@ -32,7 +32,7 @@ public class Ex09_¹è¿­¿¹Á¦6 {
 				}
 				
 			}
-			System.out.println("ÃÑÁ¡ : " + cnt);
+			System.out.println("ì´ì  : " + cnt);
 			
 			
 		
