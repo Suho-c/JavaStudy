@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Ex02_for¹®¿¹Á¦1 {
+public class Ex02_forÂ¹Â®Â¿Â¹ÃÂ¦1 {
 
 	public static void main(String[] args) {
 		
-		// ÀÔ·Â
+		// Ã€Ã”Â·Ã‚
 		
 		Scanner sc = new Scanner(System.in);
 		
