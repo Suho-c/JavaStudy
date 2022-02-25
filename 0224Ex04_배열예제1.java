@@ -1,11 +1,11 @@
 
-public class Ex04_¹è¿­¿¹Á¦1 {
+public class Ex04_ë°°ì—´ì˜ˆì œ1 {
 
 	public static void main(String[] args) {
 		
 		int[] arr = {1,2,3,4,5,6,7,8,9,10,11,12};
-		//Ãâ·Â¹®¸¸ °¡Áö°í
-		//Â¦¼ö¸¸ Ãâ·Â!
+		//ì¶œë ¥ë¬¸ë§Œ ê°€ì§€ê³ 
+		//ì§ìˆ˜ë§Œ ì¶œë ¥!
 //		System.out.println(arr[1]);
 //		System.out.println(arr[3]);
 //		System.out.println(arr[5]);
