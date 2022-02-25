@@ -1,12 +1,12 @@
 
-public class Ex10_2Â÷¿ø¹è¿­1 {
+public class Ex10_2ì°¨ì›ë°°ì—´1 {
 
 	public static void main(String[] args) {
 		
-		// array ¶ó´Â ÀÌ¸§ÀÇ 5Çà 5¿­ Â¥¸® 2Â÷¿ø ¹è¿­À» ¸¸µé±â!
+		// array ë¼ëŠ” ì´ë¦„ì˜ 5í–‰ 5ì—´ ì§œë¦¬ 2ì°¨ì› ë°°ì—´ì„ ë§Œë“¤ê¸°!
 		int [][] array = new int[5][5];
 		
-		// array ¶ó´Â ¹è¿­À» 1 ~ 25 ±îÁöÀÇ ¼ıÀÚ·Î ÃÊ±âÈ­!
+		// array ë¼ëŠ” ë°°ì—´ì„ 1 ~ 25 ê¹Œì§€ì˜ ìˆ«ìë¡œ ì´ˆê¸°í™”!
 		int num = 1;
 //		for(int i = 0; i < array[0].length; i++) {
 //			array[0][i] = num;
