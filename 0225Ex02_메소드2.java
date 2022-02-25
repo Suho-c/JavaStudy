@@ -1,6 +1,6 @@
-package ¸Þ¼Òµå;
+package ë©”ì†Œë“œ;
 
-public class Ex02_¸Þ¼Òµå2 {
+public class Ex02_Â¸ë§¤ì†Œë“œ2 {
 
 	public static void main(String[] args) {
 		int num1 = 50;
@@ -29,7 +29,7 @@ public class Ex02_¸Þ¼Òµå2 {
 //		else if(op == '/') {
 //			result = num1 / num2;
 //		}
-//		System.out.println("°á°ú : " + result);
+//		System.out.println("Â°Ã¡Â°Ãº : " + result);
 //	}
 }
 	public static int cal(int num1, int num2, char op) {
