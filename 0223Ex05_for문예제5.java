@@ -1,22 +1,22 @@
 
-public class Ex05_for¹®¿¹Á¦5 {
+public class Ex05_forë¬¸ì˜ˆì œ5 {
 
 	public static void main(String[] args) {
 		
-		// 1. 1~50 ±îÁöÀÇ ¼ıÀÚ¸¦ Ãâ·Â!
-		// ¾ğÁ¦ºÎÅÍ ~ ¾ğÁ¦±îÁö!!
+		// 1. 1~50 ê¹Œì§€ì˜ ìˆ«ìë¥¼ ì¶œë ¥!
+		// ì–¸ì œë¶€í„° ~ ì–¸ì œê¹Œì§€!!
 		
 //		for (int i = 1; i <= 50; i++) {
 //			// System.out.println(i);
-//			// ¼ıÀÚÀÇ ³¡ÀÚ¸®°¡(ÀÏÀÇÀÚ¸®°¡) 3,6,8 ·Î ³¡³­´Ù¸é '¹Ú¼ö'
+//			// ìˆ«ìì˜ ëìë¦¬ê°€(ì¼ì˜ìë¦¬ê°€) 3,6,8 ë¡œ ëë‚œë‹¤ë©´ 'ë°•ìˆ˜'
 //			if(i%10 == 3 || i%10 == 6 || i%10 == 9) {
-//				System.out.print("¹Ú¼ö" );
+//				System.out.print("ë°•ìˆ˜" );
 //			}
-//			//¼ıÀÚÀÇ ³¡ÀÚ¸®°¡ 5È£ ³¡³­´Ù¸é 'À¸¾Ç'
+//			//ìˆ«ìì˜ ëìë¦¬ê°€ 5í˜¸ ëë‚œë‹¤ë©´ 'ìœ¼ì•…'
 //			else if( i%10 ==5 ) {
-//				System.out.print("À¸¾Ç ");
+//				System.out.print("ìœ¼ì•… ");
 //			}
-//			//±× ¿ÜÀÇ ¼ıÀÚ´Â ¼ıÀÚ ±×·¡µ¹ Ãâ·Â
+//			//ê·¸ ì™¸ì˜ ìˆ«ìëŠ” ìˆ«ì ê·¸ë˜ëŒ ì¶œë ¥
 //			else {
 //				System.out.print(i + " ");
 //			}
@@ -24,10 +24,10 @@ public class Ex05_for¹®¿¹Á¦5 {
 		for (int i =1 ;i <=50; i++) {
 			switch (i % 10) {
 			case 3,6,9: 
-				System.out.print("¹Ú¼ö ");
+				System.out.print("ë°•ìˆ˜ ");
 				break;
 			case 5:
-				System.out.print("À¸¾Ç ");
+				System.out.print("ìœ¼ì•… ");
 				 break;
 			default:
 				System.out.print(i + " ");
