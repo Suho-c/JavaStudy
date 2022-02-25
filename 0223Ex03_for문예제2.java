@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex03_for¹®¿¹Á¦2 {
+public class Ex03_forë¬¸ì˜ˆì œ2 {
 
 	public static void main(String[] args) {
 		
@@ -19,8 +19,8 @@ public class Ex03_for¹®¿¹Á¦2 {
 		}
 		}
 		
-		// ´Ù Ç¬°æ¿ì »ïÇ×¿¬»êÀÚ·Î È°¿ëÇØ¼­ ¹İº¹¹® ÇÏ³ª·Î ÁÙÀÏ ¼ö ÀÖÀ½!
-		// Á¶°Ç¹®? Âü: °ÅÁş
+		// ë‹¤ í‘¼ê²½ìš° ì‚¼í•­ì—°ì‚°ìë¡œ í™œìš©í•´ì„œ ë°˜ë³µë¬¸ í•˜ë‚˜ë¡œ ì¤„ì¼ ìˆ˜ ìˆìŒ!
+		// ì¡°ê±´ë¬¸? ì°¸: ê±°ì§“
 		int big = (num1 > num2) ? num1 : num2;
 		int small = (num2 > num1) ? num1 : num2;
 		
