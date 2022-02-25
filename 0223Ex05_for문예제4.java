@@ -1,19 +1,19 @@
 
 
-public class Ex05_for¹®¿¹Á¦4 {
+public class Ex05_forë¬¸ì˜ˆì œ4 {
 
 	public static void main(String[] args) {
-		// 1~50 369°ÔÀÓ
-		// if ³¡ÀÚ¸®¼ö°¡ 3,6,9 "¹Ú¼ö" Ãâ·Â % 10 ==3,6,9or
-		// else if ³¡ÀÚ¸®¼ö°¡ 5 "À¸¾Ç" Ãâ·Â % 5 = 0
-		// else ±×¿ÜÀÇ ¼ö´Â ¼ıÀÚ¸¦ ±×´ë·Î Ãâ·Â
+		// 1~50 369ê²Œì„
+		// if ëìë¦¬ìˆ˜ê°€ 3,6,9 "ë°•ìˆ˜" ì¶œë ¥ % 10 ==3,6,9or
+		// else if ëìë¦¬ìˆ˜ê°€ 5 "ìœ¼ì•…" ì¶œë ¥ % 5 = 0
+		// else ê·¸ì™¸ì˜ ìˆ˜ëŠ” ìˆ«ìë¥¼ ê·¸ëŒ€ë¡œ ì¶œë ¥
 			
 		
 //		for (int i = 1; i <= 50; i++) {
 //			if (i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
-//				System.out.println("¹Ú¼ö");
+//				System.out.println("ë°•ìˆ˜");
 //			} else if (i % 10 == 5) { 
-//					System.out.println("À¸¾Ç");
+//					System.out.println("ìœ¼ì•…");
 //				} else 
 //			System.out.println(i + " ");
 //				
@@ -24,10 +24,10 @@ public class Ex05_for¹®¿¹Á¦4 {
 			case 3:
 			case 6:
 			case 9:
-				System.out.println("¹Ú¼ö");
+				System.out.println("ë°•ìˆ˜");
 				break;
 			case 5:
-				System.out.println("À¸¾Ç");
+				System.out.println("ìœ¼ì•…");
 				break;
 			default:
 				System.out.println(i + " ");
