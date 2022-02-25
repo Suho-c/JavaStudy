@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Ex00_¹®ÀÚÀÔ·Â {
+public class Ex00_ë¬¸ìì…ë ¥ {
 
 	public static void main(String[] args) {
 		
 		// .next() vs .nextLine()
-		// next´Â \t, \n, ¿£ÅÍ, ½ºÆäÀÌ½º°¡ µé¾î°¡¸é ±× ±âÁØÀ¸·Î ¹®ÀÚ°¡ Àß·Á¼­ Ãâ·Â
-		// nextLine \t, \n, ½ºÆäÀÌ½ºµµ ÀÎ½Ä
+		// nextëŠ” \t, \n, ì—”í„°, ìŠ¤í˜ì´ìŠ¤ê°€ ë“¤ì–´ê°€ë©´ ê·¸ ê¸°ì¤€ìœ¼ë¡œ ë¬¸ìê°€ ì˜ë ¤ì„œ ì¶œë ¥
+		// nextLine \t, \n, ìŠ¤í˜ì´ìŠ¤ë„ ì¸ì‹
 		Scanner sc = new Scanner(System.in);
 		
 //		String txt = sc.next();
