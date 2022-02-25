@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class ·£´ı´õÇÏ±â¿¬½À {
+public class Â·Â£Â´Ã½Â´ÃµÃ‡ÃÂ±Ã¢Â¿Â¬Â½Ã€ {
 
 	public static void main(String[] args) {
 
