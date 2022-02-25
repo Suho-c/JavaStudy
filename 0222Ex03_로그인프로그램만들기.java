@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex03_·Î±×ÀÎÇÁ·Î±×·¥¸¸µé±â {
+public class Ex03_ë¡œê·¸ì¸í”„ë¡œê·¸ë¨ë§Œë“¤ê¸° {
 
 	public static void main(String[] args) {
 		
@@ -14,20 +14,20 @@ public class Ex03_·Î±×ÀÎÇÁ·Î±×·¥¸¸µé±â {
 		
 		while(true) {
 			
-			System.out.print("¾ÆÀÌµğ ÀÔ·Â : ");
+			System.out.print("ì•„ì´ë”” ì…ë ¥ : ");
 			String input_id = sc.next();
 			
 			if (user_id.equals(input_id)) {
-				System.out.print("ºñ¹Ğ¹øÈ£ : ");
+				System.out.print("ë¹„ë°€ë²ˆí˜¸ : ");
 				String input_pass = sc.next();
 				
 				if (input_pass.equals(user_pass)) {
-					System.out.println("·Î±×ÀÎ ¼º°ø");
+					System.out.println("ë¡œê·¸ì¸ ì„±ê³µ");
 					break;
 				}
 				else {
-					System.out.println("·Î±×ÀÎ ½ÇÆĞ");
-					System.out.print("°è¼Ó ÇÏ½Ã°Ú½À´Ï±î? ");
+					System.out.println("ë¡œê·¸ì¸ ì‹¤íŒ¨");
+					System.out.print("ê³„ì† í•˜ì‹œê² ìŠµë‹ˆê¹Œ? ");
 					String ans = sc.next();
 					
 					if (ans.equals("N")) {
