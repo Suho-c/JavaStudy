@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class for¹®¿¬½À {
+public class forÂ¹Â®Â¿Â¬Â½Ã€ {
 
 	public static void main(String[] args) {
 		
