@@ -1,5 +1,5 @@
 
-public class Ex05_ÀÌÂ÷¿ø¹è¿­_´ÙÀÌ¾Æ¸óµå {
+public class Ex05_이자원배열_다이아몬드 {
 
 	public static void main(String[] args) {
 		
