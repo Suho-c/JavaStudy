@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex04_while¿¹Á¦2 {
+public class Ex04_whileì˜ˆì œ2 {
 
 	public static void main(String[] args) {
 		
@@ -10,14 +10,14 @@ public class Ex04_while¿¹Á¦2 {
 		int num = 0;
 //		while(num != -1) {
 //			total += num;
-//			System.out.print("¼ıÀÚ ÀÔ·Â : ");
+//			System.out.print("ìˆ«ì ì…ë ¥ : ");
 //			num = sc.nextInt();
 			
 //		}
 		
 //		while(true) {
 //			total += num;
-//			System.out.print("¼ıÀÚ ÀÔ·Â : ");
+//			System.out.print("ìˆ«ì ì…ë ¥ : ");
 //			num = sc.nextInt();
 //			if (num == -1) {
 //				break;
@@ -25,10 +25,10 @@ public class Ex04_while¿¹Á¦2 {
 //		}
 		do {
 			total += num;
-			System.out.print("¼ıÀÚ ÀÔ·Â: ");
+			System.out.print("ìˆ«ì ì…ë ¥: ");
 			num = sc.nextInt();
 		} while(num != -1);
-		System.out.println("°á°ú : " + total);
+		System.out.println("ê²°ê³¼ : " + total);
 	}
 
 }
