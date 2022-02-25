@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ·Î±×ÀÎ¿¬½À {
+public class ë¡œê·¸ì¸ì—°ìŠµ {
 
 	public static void main(String[] args) {
 		
@@ -13,25 +13,25 @@ public class ·Î±×ÀÎ¿¬½À {
 		
 		while(true) {
 			
-			System.out.print("¾ÆÀÌµğ ÀÔ·Â : ");
+			System.out.print("ì•„ì´ë”” ì…ë ¥ : ");
 			id = sc.next();
-			System.out.print("ºñ¹Ğ¹øÈ£ ÀÔ·Â : ");
+			System.out.print("ë¹„ë°€ë²ˆí˜¸ ì…ë ¥ : ");
 			pw  = sc.next();
 
 			if (id.equals("smhrd") && pw.equals("1234")) {
-				System.out.println("·Î±×ÀÎ ¼º°ø!");
+				System.out.println("ë¡œê·¸ì¸ ì„±ê³µ!");
 				break;
 			}else {
 				
-				System.out.println("·Î±×ÀÎ ½ÇÆĞ!");
-				System.out.print("°è¼Ó ÇÏ½Ã°Ú½À´Ï±î? ");
+				System.out.println("ë¡œê·¸ì¸ ì‹¤íŒ¨!");
+				System.out.print("ê³„ì† í•˜ì‹œê² ìŠµë‹ˆê¹Œ? ");
 				String ans = sc.next();
 				
 				if (ans.equals("N")) {
 					break;
 				}else if(ans.equals("Y")) {
 					if (cnt >= 3) {
-						System.out.println("º»ÀÎÀÎÁõÇØÁÖ¼¼¿ä!!!");
+						System.out.println("ë³¸ì¸ì¸ì¦í•´ì£¼ì„¸ìš”!!!");
 						break;
 					}
 					cnt++;
