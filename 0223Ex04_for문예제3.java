@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Ex04_for¹®¿¹Á¦3 {
+public class Ex04_forë¬¸ì˜ˆì œ3 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("½ÃÀÛÇÒ °ª : ");
+		System.out.print("ì‹œì‘í•  ê°’ : ");
 		int num1 = sc.nextInt();
-		System.out.print("³¡³ª´Â °ª : ");
+		System.out.print("ëë‚˜ëŠ” ê°’ : ");
 		int num2 = sc.nextInt();
 		int sum = 0;
 		
@@ -16,7 +16,7 @@ public class Ex04_for¹®¿¹Á¦3 {
 			sum += i;
 			
 		}
-		System.out.println("ÃÑÇÕ : " + sum);
+		System.out.println("ì´í•© : " + sum);
 		
 		
 		
