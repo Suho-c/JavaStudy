@@ -1,11 +1,11 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ex04_·£´ı´õÇÏ±â°ÔÀÓ {
+public class Ex04_ëœë¤ë”í•˜ê¸°ê²Œì„ {
 
 	public static void main(String[] args) {
 		
-		// ·£´ı¼ıÀÚ »Ì´Â ¹æ¹ı
+		// ëœë¤ìˆ«ì ë½‘ëŠ” ë°©ë²•
 		Scanner sc = new Scanner(System.in);
 		Random rd = new Random();
 		
@@ -14,7 +14,7 @@ public class Ex04_·£´ı´õÇÏ±â°ÔÀÓ {
 		
 		while (true) {
 			
-			int num1 = rd.nextInt(10)+1; // 1ºÎÅÍ 10±îÁö
+			int num1 = rd.nextInt(10)+1; // 1ë¶€í„° 10ê¹Œì§€
 			int num2 = rd.nextInt(10)+1; 
 			System.out.print(num1 + " + " + num2 + " = " );
 			int user_ans = sc.nextInt();
@@ -26,14 +26,14 @@ public class Ex04_·£´ı´õÇÏ±â°ÔÀÓ {
 				System.out.println("Fail!");
 				fail++;
 			}
-			System.out.print("°è¼ÓÇÏ½Ã°Ú½À´Ï±î? ");
+			System.out.print("ê³„ì†í•˜ì‹œê² ìŠµë‹ˆê¹Œ? ");
 			String ans2 = sc.next();
 			if(ans2.equals("Y")) {
 				continue;
 			}else if (ans2.equals("N")) {
-				System.out.println("Á¾·á!");
-				System.out.println("¸ÂÃá °³¼ö : " + suc);
-				System.out.println("Æ²¸° °³¼ö : " + fail);
+				System.out.println("ì¢…ë£Œ!");
+				System.out.println("ë§ì¶˜ ê°œìˆ˜ : " + suc);
+				System.out.println("í‹€ë¦° ê°œìˆ˜ : " + fail);
 				break;			
 		}
 		
