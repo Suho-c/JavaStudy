@@ -1,18 +1,18 @@
 
-public class Ex07_for¹®¿¹Á¦7 {
+public class Ex07_forë¬¸ì˜ˆì œ7 {
 
 	public static void main(String[] args) {
 		
 		
 		
-		// 1. 1~100±îÁö Ãâ·Â
-		int sum = 0; //ÃÖÁ¾ ´©ÀûÇÕÀ» ±¸ÇÒ º¯¼ö
+		// 1. 1~100ê¹Œì§€ ì¶œë ¥
+		int sum = 0; //ìµœì¢… ëˆ„ì í•©ì„ êµ¬í•  ë³€ìˆ˜
 		for(int i = 1; i <= 100; i++) {
-			// Â¦¼ö -> À½¼ö, È¦¼ö -> ¾ç¼ö·Î Ãâ·Â
+			// ì§ìˆ˜ -> ìŒìˆ˜, í™€ìˆ˜ -> ì–‘ìˆ˜ë¡œ ì¶œë ¥
 			if(i % 2 == 0) {
 				System.out.print(-i + " ");
 				sum -= i;
-			// È¦¼ö¶ó¸é	
+			// í™€ìˆ˜ë¼ë©´	
 			}else {
 				System.out.print(i + " ");
 				sum += i;
@@ -21,7 +21,7 @@ public class Ex07_for¹®¿¹Á¦7 {
 			
 		}
 
-		System.out.println("\n°á°ú : " + sum );
+		System.out.println("\nê²°ê³¼ : " + sum );
 		
 
 	}
