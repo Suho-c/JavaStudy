@@ -1,5 +1,5 @@
 
-public class Ex08_¹è¿­¿¹Á¦5 {
+public class Ex08_Â¹Ã¨Â¿Â­Â¿Â¹ÃÂ¦5 {
 
 	public static void main(String[] args) {
 	
