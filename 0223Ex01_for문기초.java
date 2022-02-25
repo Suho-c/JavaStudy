@@ -1,9 +1,9 @@
 
-public class Ex01_for¹®±âÃÊ {
+public class Ex01_forë¬¸ê¸°ì´ˆ {
 
 	public static void main(String[] args) {
 		
-		// for¹® = ¹İº¹ÀÇ È½¼ö°¡ ÁöÁ¤µÇ¾îÀÖÀ»¶§ »ç¿ëÇÏ´Â ¹İº¹¹®
+		// forë¬¸ = ë°˜ë³µì˜ íšŸìˆ˜ê°€ ì§€ì •ë˜ì–´ìˆì„ë•Œ ì‚¬ìš©í•˜ëŠ” ë°˜ë³µë¬¸
 //		for(int i = 0; i < 10; i++) {
 //			System.out.println(i+1);
 //		}
