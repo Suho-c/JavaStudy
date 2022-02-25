@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Ex10_ÀÌÁßfor¹®2 {
+public class Ex10_ì´ì¤‘forë¬¸2 {
 
 	public static void main(String[] args) {
 		
 //		Scanner sc = new Scanner(System.in);
-//		System.out.print("´Ü ÀÔ·Â : ");
+//		System.out.print("ë‹¨ ì…ë ¥ : ");
 //		int dan = sc.nextInt();
 //		
 //		for(int i = 1; i < 10; i++) {
@@ -17,9 +17,9 @@ public class Ex10_ÀÌÁßfor¹®2 {
 //		}
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("´Ü¼ö ÀÔ·Â : ");
+		System.out.print("ë‹¨ìˆ˜ ì…ë ¥ : ");
 		int dan = sc.nextInt();
-		System.out.print("¾î´À ¼ö±îÁö Ãâ·Â : ");
+		System.out.print("ì–´ëŠ ìˆ˜ê¹Œì§€ ì¶œë ¥ : ");
 		int num = sc.nextInt();
 		
 		for(int i = 1;  i <= num; i++) {
