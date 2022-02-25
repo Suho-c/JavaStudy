@@ -1,10 +1,10 @@
 
-public class Ex04_ÀÌÀÚ¿ø¹è¿­4 {
+public class Ex04_ì´ìì›ë°°ì—´4 {
 
 	public static void main(String[] args) {
 
-		// Ctrl + a ´©¸¥ ÈÄ¿¡ 
-		// Ctrl + Shift + f ÀüÃ¼ ÄÚµå Á¤·Ä!!! 
+		// Ctrl + a ëˆ„ë¥¸ í›„ì— 
+		// Ctrl + Shift + f ì „ì²´ ì½”ë“œ ì •ë ¬!!! 
 		
 		
 		int[][] array = new int[5][5];
@@ -13,7 +13,7 @@ public class Ex04_ÀÌÀÚ¿ø¹è¿­4 {
 		
 		
 
-		// ÀÔ·ÂºÎ
+		// ì…ë ¥ë¶€
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[0].length; j++) {
 
