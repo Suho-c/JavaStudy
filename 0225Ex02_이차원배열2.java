@@ -1,15 +1,15 @@
 
-public class Ex02_ÀÌÂ÷¿ø¹è¿­2 {
+public class Ex02_ì´ì°¨ì›ë°°ì—´2 {
 
 	public static void main(String[] args) {
 		
-		// 5Çà 5¿­ 2Â÷¿ø ¹è¿­ 21~45
+		// 5í–‰ 5ì—´ 2ì°¨ì› ë°°ì—´ 21~45
 		
 		int [][] array = new int [5][5];
 		
 		int num = 21;
 		
-		// ÀÔ·ÂºÎ
+		// ì…ë ¥ë¶€
 		for(int i = 0; i < array.length; i++) {
 			for(int j = 0; j < array[0].length; j++) {
 				array[i][j] = num;
@@ -17,7 +17,7 @@ public class Ex02_ÀÌÂ÷¿ø¹è¿­2 {
 			}
 		}
 		
-		// Ãâ·ÂºÎ
+		// ì¶œë ¥ë¶€
 		for(int i = 0; i < array.length; i++) {
 			for(int j = 0; j < array[0].length; j++) {
 				System.out.print(array[i][j] + "\t");
