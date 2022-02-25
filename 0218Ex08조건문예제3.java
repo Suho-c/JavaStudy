@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
-public class Ex08Á¶°Ç¹®¿¹Á¦3 {
+public class Ex08ì¡°ê±´ë¬¸ì˜ˆì œ3 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("JAVA Á¡¼ö ÀÔ·Â : ");
+		System.out.print("JAVA ì ìˆ˜ ìž…ë ¥ : ");
 		int num1 = sc.nextInt();
-		System.out.print("Python Á¡¼ö ÀÔ·Â : ");
+		System.out.print("Python ì ìˆ˜ ìž…ë ¥ : ");
 		int num2 = sc.nextInt();
-		System.out.print("Android Á¡¼ö ÀÔ·Â : ");
+		System.out.print("Android ì ìˆ˜ ìž…ë ¥ : ");
 		int num3 = sc.nextInt();
 
 		int sum = num1 + num2 + num3;
 		int ave = sum / 3;
 		
 		if(ave > 80) {
-			System.out.println("ÇÕ°Ý");
+			System.out.println("í•©ê²©");
 			
 		}
 	}
