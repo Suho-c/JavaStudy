@@ -1,26 +1,26 @@
 import java.util.Scanner;
 
-public class Ex10_´ÙÁßif¹®¿¹Á¦ {
+public class Ex10_ë‹¤ì¤‘ifë¬¸ì˜ˆì œ {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 				
-		System.out.print("Á¡¼ö ÀÔ·Â : ");
+		System.out.print("ì ìˆ˜ ì…ë ¥ : ");
 		int grade = sc.nextInt();
 		
 		
 		if (grade >= 90) {
-			System.out.println("AÇĞÁ¡ÀÔ´Ï´Ù.");
+			System.out.println("Aí•™ì ì…ë‹ˆë‹¤.");
 		}
 		else if(grade >= 80 ) {
-			System.out.println("BÇĞÁ¡ÀÔ´Ï´Ù.");
+			System.out.println("Bí•™ì ì…ë‹ˆë‹¤.");
 		}
 		else if(grade >= 70) {
-			System.out.println("CÇĞÁ¡ÀÔ´Ï´Ù.");
+			System.out.println("Cí•™ì ì…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("ÈŞÇĞÀÔ´Ï´Ù.");
+			System.out.println("íœ´í•™ì…ë‹ˆë‹¤.");
 		}
 	}
 
