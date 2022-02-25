@@ -1,5 +1,5 @@
 
-public class Ex08_±¸±¸´Ü2´Ü {
+public class Ex08_Â±Â¸Â±Â¸Â´Ãœ2Â´Ãœ {
 
 	public static void main(String[] args) {
 		
@@ -21,7 +21,7 @@ public class Ex08_±¸±¸´Ü2´Ü {
 //		}
 		
 		for(int i = 2; i < 10; i++) {
-			System.out.println(i + "´Ü");
+			System.out.println(i + "Â´Ãœ");
 			
 			for(int j = 1; j < 10; j++ ) {
 				System.out.println(i + " * " + j + " = " +  i*j);
