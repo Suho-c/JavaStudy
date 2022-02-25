@@ -1,5 +1,5 @@
 
-public class Ex08_¹è¿­¿¹Á¦5 {
+public class Ex08_배열예제5 {
 
 	public static void main(String[] args) {
 	
