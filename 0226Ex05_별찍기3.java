@@ -1,5 +1,5 @@
 
-public class Ex05_º°Âï±â3 {
+public class Ex05_ÂºÂ°Ã‚Ã¯Â±Ã¢3 {
 
 	public static void main(String[] args) {
 		for(int i = 1; i < 6; i++) {
