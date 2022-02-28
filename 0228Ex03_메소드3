@@ -1,0 +1,39 @@
+
+public class Ex03_메소드3 {
+
+	public static void main(String[] args) {
+		
+		int num1 = 11;
+		int num2 = 5;
+		int result = close10(num1, num2);
+		System.out.println("10에 가까운 : " + result);
+	
+	}
+	public static int close10(int num1, int num2) {
+		//각각 10과의 거리를 !! 알아야함!!
+
+		int result = 0; //10과 더 가까운 수를 담아줄 변수
+		
+		int resultNum1 = 10 - num1;
+		int resultNum2 = 10 - num2;
+		
+		// 실질적인 거리를 구하는 조건문!
+		if (resultNum1 < 0) {
+			resultNum1 = -1 * resultNum1;
+		}
+		if (resultNum2 < 0) {
+			resultNum2 = -1 * resultNum2;
+		}
+		// resultNum1, resultNum2 각각 거리에 맞는 절댓값이 들어가게됨!!
+		
+		// 거리에 따라 결과값을 구하는 부분!
+		if(resultNum1 > resultNum2) {
+			result = num2;
+		}
+		else if(resultNum1 < resultNum2) {
+			result = num1;
+		}
+		return result;	
+	}
+
+}
