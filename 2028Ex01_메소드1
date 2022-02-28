@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Ex02_메소드2 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+    // 입력한 수 중에 큰 수 출력
+		System.out.print("첫 번재 수 입력 : ");
+		int num1 = sc.nextInt();
+		System.out.print("두 번재 수 입력 : ");
+		int num2 = sc.nextInt();
+		
+		
+		
+		int result = LargerNumerbers(num1, num2);
+		System.out.println("큰 수 확인 : " + result);
+		
+		
+
+	}
+
+	public static int LargerNumerbers(int num1, int num2) {
+		int result = 0;
+		if(num1>num2) {
+			result = num1;
+		}else if(num1 == num2){
+			result = 0;
+		}else {
+			result = num2;
+		}
+		return result;
+	}
+
+
+}
