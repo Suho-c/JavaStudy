@@ -6,7 +6,6 @@ public class Ex02_메소드2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-    // 입력한 수 중에 큰 수 출력
 		System.out.print("첫 번재 수 입력 : ");
 		int num1 = sc.nextInt();
 		System.out.print("두 번재 수 입력 : ");
@@ -25,9 +24,7 @@ public class Ex02_메소드2 {
 		int result = 0;
 		if(num1>num2) {
 			result = num1;
-		}else if(num1 == num2){
-			result = 0;
-		}else {
+		}else if(num1 < num2){
 			result = num2;
 		}
 		return result;
